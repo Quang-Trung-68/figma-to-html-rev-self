@@ -44,6 +44,7 @@ a {
 
 .btn:hover {
   opacity: 0.85;
+  cursor: pointer;
 }
 
 .heading-lv3 {
@@ -237,4 +238,112 @@ a {
 
 .hero-right .recent .number .desc:first-child {
   margin-right: 28px;
+}
+
+/* =========popular======== */
+
+.popular .main-content {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.popular-top {
+  position: relative;
+}
+
+.popular-top .heading-lv2 {
+  color: #171100;
+  font-family: var(--font-sen);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+
+.popular-top .desc {
+  color: #5f5b53;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  margin-top: 16px;
+  width: 458px;
+}
+
+.popular-top .change-list {
+  position: absolute;
+  right: 0;
+  top: 42px;
+}
+
+.popular-top .change-list .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ffb900;
+}
+
+.popular-top .change-list .icon1 {
+  background-color: var(--primary-color);
+  border: 2px solid #fff;
+}
+
+.popular .course-list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.course-list .course-item .thumb {
+  border-radius: 12px 12px 0 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.course-list .course-item {
+  margin-top: 55px;
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background: #fff;
+}
+
+.course-list .course-item:hover {
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.course-list .course-item .thumb-desc {
+  margin: 0 22px 0 22px;
+}
+
+.course-list .course-item .head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.course-list .course-item .rating {
+  display: flex;
+  justify-content: center;
+  margin-right: 22px;
+}
+
+.course-list .course-item .rate {
+  margin-left: 6px;
+  color: #fea31b;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.course-item .desc {
+  margin-top: 7px;
+  max-width: 326px;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+.course-list .course-item .cta-block {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
 }
