@@ -350,3 +350,76 @@ a {
   align-items: center;
   margin-bottom: 22px;
 }
+
+/* =======feedback======== */
+
+.feedback {
+  background: #2e2100;
+}
+
+.feedback .main-content {
+  display: flex;
+  overflow: hidden;
+}
+
+.feedback .main-content .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.feedback .fb-left .avatar {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .fb-left .heading-ava {
+  color: #f7f7f7;
+  font-family: var(--font-sen);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42;
+  margin-top: 18px;
+}
+
+.feedback .fb-left .desc {
+  color: #bfbcb2;
+  font-size: 14px;
+  line-height: 1.85;
+  margin-top: 4px;
+  width: 159px;
+}
+
+.fb-left .dots span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  margin-top: 28px;
+}
+
+.fb-left .dots span:hover {
+  cursor: pointer;
+}
+.fb-left .dots span.active {
+  background: #ffb900;
+  cursor: default;
+}
+
+.feedback .fb-right {
+  max-width: 740px;
+}
+
+.feedback .fb-right .desc {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.54;
+}
