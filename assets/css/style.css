@@ -47,6 +47,15 @@ a {
   cursor: pointer;
 }
 
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-sen);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+
 .heading-lv3 {
   color: #171100;
   font-size: 1.8rem;
@@ -422,4 +431,60 @@ a {
   font-size: 2.6rem;
   font-style: italic;
   line-height: 1.54;
+}
+
+/* =======phan features========== */
+
+.features .main-content {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features .feature-left {
+  display: flex;
+  gap: 30px;
+}
+
+.features .feature-left .img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.features .feature-left .img.lower {
+  margin-top: 34px;
+}
+
+.features .feature-right {
+  max-width: 41%;
+}
+
+.features .feature-right .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.features .feature-right .btn {
+  margin-top: 32px;
+  background-color: var(--primary-color);
+}
+
+.features.feat2 .main-content {
+  flex-direction: row-reverse;
+}
+
+.features.feat2 .main-content .feature-left .img {
+  width: 470px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.features.feat2 .main-content .feature-right {
+  max-width: 49%;
 }
