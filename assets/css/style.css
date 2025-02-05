@@ -595,3 +595,78 @@ a {
   background: var(--primary-color);
   cursor: default;
 }
+
+/* =========phan footer======== */
+
+.footer {
+  background: #2e2100;
+}
+
+.footer .main-content {
+  padding-top: 96px;
+}
+
+.footer .main-content .top {
+  display: flex;
+}
+
+.footer .heading-lv3 {
+  color: #fff;
+}
+
+.footer .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+.top .block-foot {
+  width: 23%;
+}
+
+.top .block-foot:first-child {
+  max-width: 22%;
+  margin-right: auto;
+}
+
+.top .block-foot:first-child .desc {
+  margin-top: 18px;
+}
+
+.block-foot .icons {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.footer .block-foot .heading-lv3 {
+  display: inline-block;
+  padding-right: 63px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #59554b;
+}
+
+.footer .block-foot .desc1 {
+  padding-top: 28px;
+}
+
+.footer .block-foot .desc {
+  margin-top: 12px;
+}
+
+.footer .block-foot strong {
+  color: #fff;
+}
+
+.footer .main-content .top {
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+
+.footer .copyright p {
+  text-align: center;
+  color: #807d74;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  padding: 28px 0;
+}
